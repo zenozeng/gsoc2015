@@ -1,0 +1,1242 @@
+50
+mock.js:35 39.494470774091624 circles per second
+mock.js:34 100
+mock.js:35 49.35834155972359 circles per second
+mock.js:34 150
+mock.js:35 46.29629629629629 circles per second
+mock.js:34 200
+mock.js:35 43.029259896729776 circles per second
+mock.js:34 250
+mock.js:35 40.68348250610252 circles per second
+mock.js:34 300
+mock.js:35 45.57885141294439 circles per second
+mock.js:34 350
+mock.js:35 50.200803212851405 circles per second
+mock.js:34 400
+mock.js:35 47.03668861712136 circles per second
+mock.js:34 450
+mock.js:35 40.16064257028113 circles per second
+mock.js:34 500
+mock.js:35 42.99226139294927 circles per second
+mock.js:34 550
+mock.js:35 40.12841091492777 circles per second
+mock.js:34 600
+mock.js:35 33.467202141900934 circles per second
+mock.js:34 650
+mock.js:35 36.71071953010279 circles per second
+mock.js:34 700
+mock.js:35 31.036623215394165 circles per second
+mock.js:34 750
+mock.js:35 31.367628607277293 circles per second
+mock.js:34 800
+mock.js:35 29.49852507374631 circles per second
+mock.js:34 850
+mock.js:35 26.413100898045432 circles per second
+mock.js:34 900
+mock.js:35 28.951939779965258 circles per second
+mock.js:34 950
+mock.js:35 27.277686852154936 circles per second
+mock.js:34 1000
+mock.js:35 23.22340919647004 circles per second
+mock.js:34 1050
+mock.js:35 28.58776443682104 circles per second
+mock.js:34 1100
+mock.js:35 25.562372188139058 circles per second
+mock.js:34 1150
+mock.js:35 22.967386311437757 circles per second
+mock.js:34 1200
+mock.js:35 22.49212775528565 circles per second
+mock.js:34 1250
+mock.js:35 23.10536044362292 circles per second
+mock.js:34 1300
+mock.js:35 22.52252252252252 circles per second
+mock.js:34 1350
+mock.js:35 20.61855670103093 circles per second
+mock.js:34 1400
+mock.js:35 19.936204146730464 circles per second
+mock.js:34 1450
+mock.js:35 20.483408439164275 circles per second
+mock.js:34 1500
+mock.js:35 19.54652071931196 circles per second
+mock.js:34 1550
+mock.js:35 18.031013342949876 circles per second
+mock.js:34 1600
+mock.js:35 18.46381093057607 circles per second
+mock.js:34 1650
+mock.js:35 16.01537475976938 circles per second
+mock.js:34 1700
+mock.js:35 14.943215780035864 circles per second
+mock.js:34 1750
+mock.js:35 17.25327812284334 circles per second
+mock.js:34 1800
+mock.js:35 15.436863229391788 circles per second
+mock.js:34 1850
+mock.js:35 16.72800267648043 circles per second
+mock.js:34 1900
+mock.js:35 15.271838729383017 circles per second
+mock.js:34 1950
+mock.js:35 15.37042729787888 circles per second
+mock.js:34 2000
+mock.js:35 14.66275659824047 circles per second
+mock.js:34 2050
+mock.js:35 13.819789939192924 circles per second
+mock.js:34 2100
+mock.js:35 13.154433043935807 circles per second
+mock.js:34 2150
+mock.js:35 12.543903662819869 circles per second
+mock.js:34 2200
+mock.js:35 12.091898428053204 circles per second
+mock.js:34 2250
+mock.js:35 13.034410844629823 circles per second
+mock.js:34 2300
+mock.js:35 12.642225031605562 circles per second
+mock.js:34 2350
+mock.js:35 12.709710218607015 circles per second
+mock.js:34 2400
+mock.js:35 12.976901116013497 circles per second
+mock.js:34 2450
+mock.js:35 13.248542660307367 circles per second
+mock.js:34 2500
+mock.js:35 12.05109664979513 circles per second
+mock.js:34 2550
+mock.js:35 9.589566551591869 circles per second
+mock.js:34 2600
+mock.js:35 10.829542993285683 circles per second
+mock.js:34 2650
+mock.js:35 10.829542993285683 circles per second
+mock.js:34 2700
+mock.js:35 10.453690152623876 circles per second
+mock.js:34 2750
+mock.js:35 9.68054211035818 circles per second
+mock.js:34 2800
+mock.js:35 12.042389210019268 circles per second
+mock.js:34 2850
+mock.js:35 10.168802115110841 circles per second
+mock.js:34 2900
+mock.js:35 9.840582562487699 circles per second
+mock.js:34 2950
+mock.js:35 10.713520462824084 circles per second
+mock.js:34 3000
+mock.js:35 10.663254425250587 circles per second
+mock.js:34 3050
+mock.js:35 9.417969485778867 circles per second
+mock.js:34 3100
+mock.js:35 10.590976488032197 circles per second
+mock.js:34 3150
+mock.js:35 10.237510237510238 circles per second
+mock.js:34 3200
+mock.js:35 9.754194303550527 circles per second
+mock.js:34 3250
+mock.js:35 10.486577181208053 circles per second
+mock.js:34 3300
+mock.js:35 9.873617693522906 circles per second
+mock.js:34 3350
+mock.js:35 8.750437521876094 circles per second
+mock.js:34 3400
+mock.js:35 7.779679477205539 circles per second
+mock.js:34 3450
+mock.js:35 6.952169076751947 circles per second
+mock.js:34 3500
+mock.js:35 7.203572972194208 circles per second
+mock.js:34 3550
+mock.js:35 7.564296520423601 circles per second
+mock.js:34 3600
+mock.js:35 7.028394714647174 circles per second
+mock.js:34 3650
+mock.js:35 7.139797229758675 circles per second
+mock.js:34 3700
+mock.js:35 6.79532481652623 circles per second
+mock.js:34 3750
+mock.js:35 7.916402786573781 circles per second
+mock.js:34 3800
+mock.js:35 8.056719303899452 circles per second
+mock.js:34 3850
+mock.js:35 7.90263948158685 circles per second
+mock.js:34 3900
+mock.js:35 8.21962847279303 circles per second
+mock.js:34 3950
+mock.js:35 7.700600646850455 circles per second
+mock.js:34 4000
+mock.js:35 7.492881762325791 circles per second
+mock.js:34 4050
+mock.js:35 7.564296520423601 circles per second
+mock.js:34 4100
+mock.js:35 7.32493407559332 circles per second
+mock.js:34 4150
+mock.js:35 6.570302233902759 circles per second
+mock.js:34 4200
+mock.js:35 7.527853056308341 circles per second
+mock.js:34 4250
+mock.js:35 6.9232899473829965 circles per second
+mock.js:34 4300
+mock.js:35 7.212925562608194 circles per second
+mock.js:34 4350
+mock.js:35 6.590220113351786 circles per second
+mock.js:34 4400
+mock.js:35 7.2400810889081955 circles per second
+mock.js:34 4450
+mock.js:35 6.321112515802781 circles per second
+mock.js:34 4500
+mock.js:35 5.628729032984352 circles per second
+mock.js:34 4550
+mock.js:35 5.847953216374268 circles per second
+mock.js:34 4600
+mock.js:35 5.787706910522051 circles per second
+mock.js:34 4650
+mock.js:35 5.076657528683115 circles per second
+mock.js:34 4700
+mock.js:35 5.7696745903531035 circles per second
+mock.js:34 4750
+mock.js:35 6.069434328720563 circles per second
+mock.js:34 4800
+mock.js:35 6.460783046905284 circles per second
+mock.js:34 4850
+mock.js:35 5.599731212901781 circles per second
+mock.js:34 4900
+mock.js:35 0.005319682036221077 circles per second
+mock.js:34 4950
+mock.js:35 6.61638216223369 circles per second
+mock.js:34 5000
+mock.js:35 7.338910905621606 circles per second
+mock.js:34 5050
+mock.js:35 7.135721421435707 circles per second
+mock.js:34 5100
+mock.js:35 6.619009796134498 circles per second
+mock.js:34 5150
+mock.js:35 6.58154534684744 circles per second
+mock.js:34 5200
+mock.js:35 6.36213258684311 circles per second
+mock.js:34 5250
+mock.js:35 6.3897763578274756 circles per second
+mock.js:34 5300
+mock.js:35 6.667555674089879 circles per second
+mock.js:34 5350
+mock.js:35 6.507874528179097 circles per second
+mock.js:34 5400
+mock.js:35 6.663113006396588 circles per second
+mock.js:34 5450
+mock.js:35 6.294058408862035 circles per second
+mock.js:34 5500
+mock.js:35 6.3564708873633355 circles per second
+mock.js:34 5550
+mock.js:35 5.913660555884093 circles per second
+mock.js:34 5600
+mock.js:35 6.114711997064939 circles per second
+mock.js:34 5650
+mock.js:35 6.235191420376605 circles per second
+mock.js:34 5700
+mock.js:35 5.794414184725924 circles per second
+mock.js:34 5750
+mock.js:35 5.823433496389471 circles per second
+mock.js:34 5800
+mock.js:35 6.469142191745375 circles per second
+mock.js:34 5850
+mock.js:35 5.792400370713623 circles per second
+mock.js:34 5900
+mock.js:35 5.983008256551394 circles per second
+mock.js:34 5950
+mock.js:35 6.166748889985199 circles per second
+mock.js:34 6000
+mock.js:35 5.530361685654242 circles per second
+mock.js:34 6050
+mock.js:35 5.923468783319512 circles per second
+mock.js:34 6100
+mock.js:35 5.525472427892585 circles per second
+mock.js:34 6150
+mock.js:35 6.120700208103807 circles per second
+mock.js:34 6200
+mock.js:35 5.894141223623718 circles per second
+mock.js:34 6250
+mock.js:35 5.4336013910019565 circles per second
+mock.js:34 6300
+mock.js:35 5.609154139555755 circles per second
+mock.js:34 6350
+mock.js:35 5.47645125958379 circles per second
+mock.js:34 6400
+mock.js:35 5.941770647653001 circles per second
+mock.js:34 6450
+mock.js:35 6.120700208103807 circles per second
+mock.js:34 6500
+mock.js:35 5.897617362585516 circles per second
+mock.js:34 6550
+mock.js:35 5.024620641141594 circles per second
+mock.js:34 6600
+mock.js:35 5.599104143337066 circles per second
+mock.js:34 6650
+mock.js:35 5.80113702285648 circles per second
+mock.js:34 6700
+mock.js:35 5.311802825879103 circles per second
+mock.js:34 6750
+mock.js:35 4.959333465582225 circles per second
+mock.js:34 6800
+mock.js:35 5.3481655792063325 circles per second
+mock.js:34 6850
+mock.js:35 5.515111405250386 circles per second
+mock.js:34 6900
+mock.js:35 5.3481655792063325 circles per second
+mock.js:34 6950
+mock.js:35 5.076657528683115 circles per second
+mock.js:34 7000
+mock.js:35 5.6605909656968185 circles per second
+mock.js:34 7050
+mock.js:35 4.991016170892394 circles per second
+mock.js:34 7100
+mock.js:35 4.966722956193504 circles per second
+mock.js:34 7150
+mock.js:35 4.944620253164557 circles per second
+mock.js:34 7200
+mock.js:35 5.21485189820609 circles per second
+mock.js:34 7250
+mock.js:35 4.807230074031343 circles per second
+mock.js:34 7300
+mock.js:35 4.826720725938797 circles per second
+mock.js:34 7350
+mock.js:35 5.103082261686058 circles per second
+mock.js:34 7400
+mock.js:35 5.191029900332226 circles per second
+mock.js:34 7450
+mock.js:35 5.02563071665494 circles per second
+mock.js:34 7500
+mock.js:35 4.894283476898982 circles per second
+mock.js:34 7550
+mock.js:35 4.7232193463064425 circles per second
+mock.js:34 7600
+mock.js:35 5.044899606497831 circles per second
+mock.js:34 7650
+mock.js:35 5.025125628140704 circles per second
+mock.js:34 7700
+mock.js:35 4.740235115661737 circles per second
+mock.js:34 7750
+mock.js:35 4.854840275754928 circles per second
+mock.js:34 7800
+mock.js:35 4.517119884361731 circles per second
+mock.js:34 7850
+mock.js:35 4.457917261055635 circles per second
+mock.js:34 7900
+mock.js:35 4.349717268377556 circles per second
+mock.js:34 7950
+mock.js:35 5.443065534509036 circles per second
+mock.js:34 8000
+mock.js:35 4.485109436670255 circles per second
+mock.js:34 8050
+mock.js:35 4.505722267279445 circles per second
+mock.js:34 8100
+mock.js:35 4.367575122292104 circles per second
+mock.js:34 8150
+mock.js:35 4.5359702440352 circles per second
+mock.js:34 8200
+mock.js:35 4.134965266291763 circles per second
+mock.js:34 8250
+mock.js:35 4.000320025602048 circles per second
+mock.js:34 8300
+mock.js:35 4.102059233735335 circles per second
+mock.js:34 8350
+mock.js:35 3.9038101186758274 circles per second
+mock.js:34 8400
+mock.js:35 4.484707148623195 circles per second
+mock.js:34 8450
+mock.js:35 4.025440785766041 circles per second
+mock.js:34 8500
+mock.js:35 4.023821020441011 circles per second
+mock.js:34 8550
+mock.js:35 4.132572939912389 circles per second
+mock.js:34 8600
+mock.js:35 4.57331016189518 circles per second
+mock.js:34 8650
+mock.js:35 3.979307600477517 circles per second
+mock.js:34 8700
+mock.js:35 3.79737221842485 circles per second
+mock.js:34 8750
+mock.js:35 4.352746583093932 circles per second
+mock.js:34 8800
+mock.js:35 4.288532464190753 circles per second
+mock.js:34 8850
+mock.js:35 3.8636890503052315 circles per second
+mock.js:34 8900
+mock.js:35 4.094668741298829 circles per second
+mock.js:34 8950
+mock.js:35 4.114887663566784 circles per second
+mock.js:34 9000
+mock.js:35 3.775864673010119 circles per second
+mock.js:34 9050
+mock.js:35 3.854158637169506 circles per second
+mock.js:34 9100
+mock.js:35 4.040730564085987 circles per second
+mock.js:34 9150
+mock.js:35 4.0163868583822 circles per second
+mock.js:34 9200
+mock.js:35 4.187604690117253 circles per second
+mock.js:34 9250
+mock.js:35 3.92958189248664 circles per second
+mock.js:34 9300
+mock.js:35 3.7967955045941224 circles per second
+mock.js:34 9350
+mock.js:35 4.020908725371934 circles per second
+mock.js:34 9400
+mock.js:35 3.804017041996348 circles per second
+mock.js:34 9450
+mock.js:35 4.16770859381512 circles per second
+mock.js:34 9500
+mock.js:35 3.5803795202291444 circles per second
+mock.js:34 9550
+mock.js:35 3.6234509747083123 circles per second
+mock.js:34 9600
+mock.js:35 3.6171598061202346 circles per second
+mock.js:34 9650
+mock.js:35 3.5803795202291444 circles per second
+mock.js:34 9700
+mock.js:35 3.51493848857645 circles per second
+mock.js:34 9750
+mock.js:35 3.4251267296889987 circles per second
+mock.js:34 9800
+mock.js:35 3.640865069540523 circles per second
+mock.js:34 9850
+mock.js:35 3.8005472788081485 circles per second
+mock.js:34 9900
+mock.js:35 3.8240917782026767 circles per second
+mock.js:34 9950
+mock.js:35 3.9376279729091195 circles per second
+mock.js:34 10000
+mock.js:35 3.3227006911217436 circles per second
+mock.js:34 10050
+mock.js:35 3.6279204759831662 circles per second
+mock.js:34 10100
+mock.js:35 3.421142661648991 circles per second
+mock.js:34 10150
+mock.js:35 3.503608716978488 circles per second
+mock.js:34 10200
+mock.js:35 3.5293287216771367 circles per second
+mock.js:34 10250
+mock.js:35 3.7177485314893297 circles per second
+mock.js:34 10300
+mock.js:35 3.4777770049384436 circles per second
+mock.js:34 10350
+mock.js:35 3.3756413718606533 circles per second
+mock.js:34 10400
+mock.js:35 3.676740936833591 circles per second
+mock.js:34 10450
+mock.js:35 3.395816354251562 circles per second
+mock.js:34 10500
+mock.js:35 3.530325496010732 circles per second
+mock.js:34 10550
+mock.js:35 3.34246941640484 circles per second
+mock.js:34 10600
+mock.js:35 3.2896901111915255 circles per second
+mock.js:34 10650
+mock.js:35 3.4352456200618344 circles per second
+mock.js:34 10700
+mock.js:35 3.072385400024579 circles per second
+mock.js:34 10750
+mock.js:35 3.374730021598272 circles per second
+mock.js:34 10800
+mock.js:35 3.46476335666274 circles per second
+mock.js:34 10850
+mock.js:35 3.2855828623997896 circles per second
+mock.js:34 10900
+mock.js:35 3.0091478093403947 circles per second
+mock.js:34 10950
+mock.js:35 3.3818058843422385 circles per second
+mock.js:34 11000
+mock.js:35 3.370862266567788 circles per second
+mock.js:34 11050
+mock.js:35 3.262855651265988 circles per second
+mock.js:34 11100
+mock.js:35 3.063162408870918 circles per second
+mock.js:34 11150
+mock.js:35 3.2208193764493687 circles per second
+mock.js:34 11200
+mock.js:35 3.1669622498099823 circles per second
+mock.js:34 11250
+mock.js:35 2.998500749625187 circles per second
+mock.js:34 11300
+mock.js:35 3.0536215952119212 circles per second
+mock.js:34 11350
+mock.js:35 3.1721862707778197 circles per second
+mock.js:34 11400
+mock.js:35 3.0469226081657528 circles per second
+mock.js:34 11450
+mock.js:35 3.6148062463851938 circles per second
+mock.js:34 11500
+mock.js:35 2.8962001853568116 circles per second
+mock.js:34 11550
+mock.js:35 3.3824922202678933 circles per second
+mock.js:34 11600
+mock.js:35 3.3393441528083887 circles per second
+mock.js:34 11650
+mock.js:35 3.342692873378794 circles per second
+mock.js:34 11700
+mock.js:35 3.351431061063074 circles per second
+mock.js:34 11750
+mock.js:35 2.891176130449867 circles per second
+mock.js:34 11800
+mock.js:35 3.170778108947936 circles per second
+mock.js:34 11850
+mock.js:35 3.4397358282883874 circles per second
+mock.js:34 11900
+mock.js:35 2.8635244258633525 circles per second
+mock.js:34 11950
+mock.js:35 3.037482534475427 circles per second
+mock.js:34 12000
+mock.js:35 2.9185150595377074 circles per second
+mock.js:34 12050
+mock.js:35 2.818807080843387 circles per second
+mock.js:34 12100
+mock.js:35 2.9542097488921715 circles per second
+mock.js:34 12150
+mock.js:35 2.858776443682104 circles per second
+mock.js:34 12200
+mock.js:35 3.0599755201958385 circles per second
+mock.js:34 12250
+mock.js:35 2.6957084321759757 circles per second
+mock.js:34 12300
+mock.js:35 3.2666928002090683 circles per second
+mock.js:34 12350
+mock.js:35 2.8613940711914845 circles per second
+mock.js:34 12400
+mock.js:35 3.0244374546334383 circles per second
+mock.js:34 12450
+mock.js:35 3.2645599373204495 circles per second
+mock.js:34 12500
+mock.js:35 2.9580547831745845 circles per second
+mock.js:34 12550
+mock.js:35 3.151790216843167 circles per second
+mock.js:34 12600
+mock.js:35 3.1133250311332503 circles per second
+mock.js:34 12650
+mock.js:35 2.734930532764468 circles per second
+mock.js:34 12700
+mock.js:35 2.830455703368242 circles per second
+mock.js:34 12750
+mock.js:35 3.094825451844516 circles per second
+mock.js:34 12800
+mock.js:35 2.706652952958372 circles per second
+mock.js:34 12850
+mock.js:35 2.6434047052603753 circles per second
+mock.js:34 12900
+mock.js:35 2.7780864540504497 circles per second
+mock.js:34 12950
+mock.js:35 2.9084986330056424 circles per second
+mock.js:34 13000
+mock.js:35 2.960331557134399 circles per second
+mock.js:34 13050
+mock.js:35 2.6789541363051868 circles per second
+mock.js:34 13100
+mock.js:35 3.0553009471432935 circles per second
+mock.js:34 13150
+mock.js:35 2.747554676338059 circles per second
+mock.js:34 13200
+mock.js:35 2.744990392533626 circles per second
+mock.js:34 13250
+mock.js:35 2.9959853795913474 circles per second
+mock.js:34 13300
+mock.js:35 2.78955590270029 circles per second
+mock.js:34 13350
+mock.js:35 3.014590618593995 circles per second
+mock.js:34 13400
+mock.js:35 2.891176130449867 circles per second
+mock.js:34 13450
+mock.js:35 2.9793826719103804 circles per second
+mock.js:34 13500
+mock.js:35 2.8405862970117033 circles per second
+mock.js:34 13550
+mock.js:35 2.8391346317642383 circles per second
+mock.js:34 13600
+mock.js:35 2.810567734682406 circles per second
+mock.js:34 13650
+mock.js:35 2.82326369282891 circles per second
+mock.js:34 13700
+mock.js:35 2.770850651149903 circles per second
+mock.js:34 13750
+mock.js:35 2.6127397188692063 circles per second
+mock.js:34 13800
+mock.js:35 2.566998665160694 circles per second
+mock.js:34 13850
+mock.js:35 2.758012024932429 circles per second
+mock.js:34 13900
+mock.js:35 2.795169946332737 circles per second
+mock.js:34 13950
+mock.js:35 2.5583299222267706 circles per second
+mock.js:34 14000
+mock.js:35 2.6766595289079227 circles per second
+mock.js:34 14050
+mock.js:35 2.7347809440463817 circles per second
+mock.js:34 14100
+mock.js:35 2.7297046459573076 circles per second
+mock.js:34 14150
+mock.js:35 3.0513853289393387 circles per second
+mock.js:34 14200
+mock.js:35 2.6283972033853757 circles per second
+mock.js:34 14250
+mock.js:35 2.846569883290635 circles per second
+mock.js:34 14300
+mock.js:35 2.576788291074005 circles per second
+mock.js:34 14350
+mock.js:35 2.4118469924268005 circles per second
+mock.js:34 14400
+mock.js:35 2.3631723225257586 circles per second
+mock.js:34 14450
+mock.js:35 2.469379691821415 circles per second
+mock.js:34 14500
+mock.js:35 2.3772167546236864 circles per second
+mock.js:34 14550
+mock.js:35 2.801591303860593 circles per second
+mock.js:34 14600
+mock.js:35 2.531773760696744 circles per second
+mock.js:34 14650
+mock.js:35 2.3413720440177945 circles per second
+mock.js:34 14700
+mock.js:35 2.8237420229287853 circles per second
+mock.js:34 14750
+mock.js:35 2.561869139724343 circles per second
+mock.js:34 14800
+mock.js:35 2.538715410002539 circles per second
+mock.js:34 14850
+mock.js:35 2.509914160935696 circles per second
+mock.js:34 14900
+mock.js:35 2.7185732927359725 circles per second
+mock.js:34 14950
+mock.js:35 2.6504108136761197 circles per second
+mock.js:34 15000
+mock.js:35 2.3008605218351663 circles per second
+mock.js:34 15050
+mock.js:35 2.6403337381845065 circles per second
+mock.js:34 15100
+mock.js:35 2.465969619254291 circles per second
+mock.js:34 15150
+mock.js:35 2.719312557785392 circles per second
+mock.js:34 15200
+mock.js:35 2.3517238135553358 circles per second
+mock.js:34 15250
+mock.js:35 2.4919013207077 circles per second
+mock.js:34 15300
+mock.js:35 2.335139174294788 circles per second
+mock.js:34 15350
+mock.js:35 2.7551245316288298 circles per second
+mock.js:34 15400
+mock.js:35 2.5660764690787783 circles per second
+mock.js:34 15450
+mock.js:35 2.5378134199573648 circles per second
+mock.js:34 15500
+mock.js:35 2.308722353049822 circles per second
+mock.js:34 15550
+mock.js:35 2.4713325425069197 circles per second
+mock.js:34 15600
+mock.js:35 2.32698841159771 circles per second
+mock.js:34 15650
+mock.js:35 2.1668472372697725 circles per second
+mock.js:34 15700
+mock.js:35 2.263775071308915 circles per second
+mock.js:34 15750
+mock.js:35 2.357045208127092 circles per second
+mock.js:34 15800
+mock.js:35 2.542976299460889 circles per second
+mock.js:34 15850
+mock.js:35 2.4669429642786658 circles per second
+mock.js:34 15900
+mock.js:35 2.3799324099195585 circles per second
+mock.js:34 15950
+mock.js:35 2.288538996704504 circles per second
+mock.js:34 16000
+mock.js:35 2.237336674422767 circles per second
+mock.js:34 16050
+mock.js:35 2.5002500250025004 circles per second
+mock.js:34 16100
+mock.js:35 2.2040024684827646 circles per second
+mock.js:34 16150
+mock.js:35 2.299590672860231 circles per second
+mock.js:34 16200
+mock.js:35 2.1113973227481946 circles per second
+mock.js:34 16250
+mock.js:35 2.232043212356591 circles per second
+mock.js:34 16300
+mock.js:35 2.540908628925704 circles per second
+mock.js:34 16350
+mock.js:35 2.334812047630166 circles per second
+mock.js:34 16400
+mock.js:35 2.26223871142883 circles per second
+mock.js:34 16450
+mock.js:35 2.3082960158810764 circles per second
+mock.js:34 16500
+mock.js:35 2.183596820683029 circles per second
+mock.js:34 16550
+mock.js:35 2.3513920240782547 circles per second
+mock.js:34 16600
+mock.js:35 2.212683099526486 circles per second
+mock.js:34 16650
+mock.js:35 2.26090888537192 circles per second
+mock.js:34 16700
+mock.js:35 2.1065048870913383 circles per second
+mock.js:34 16750
+mock.js:35 2.1344717182497335 circles per second
+mock.js:34 16800
+mock.js:35 2.235736004292613 circles per second
+mock.js:34 16850
+mock.js:35 2.484595507851322 circles per second
+mock.js:34 16900
+mock.js:35 2.0857667278491574 circles per second
+mock.js:34 16950
+mock.js:35 2.1815960556743317 circles per second
+mock.js:34 17000
+mock.js:35 2.1309239686327994 circles per second
+mock.js:34 17050
+mock.js:35 2.146014850422765 circles per second
+mock.js:34 17100
+mock.js:35 2.259682740543228 circles per second
+mock.js:34 17150
+mock.js:35 2.104820037886761 circles per second
+mock.js:34 17200
+mock.js:35 2.3578232575686124 circles per second
+mock.js:34 17250
+mock.js:35 2.0494323072508913 circles per second
+mock.js:34 17300
+mock.js:35 2.145738563213458 circles per second
+mock.js:34 17350
+mock.js:35 2.127659574468085 circles per second
+mock.js:34 17400
+mock.js:35 2.189046013747209 circles per second
+mock.js:34 17450
+mock.js:35 2.039151712887439 circles per second
+mock.js:34 17500
+mock.js:35 2.2978997196562343 circles per second
+mock.js:34 17550
+mock.js:35 2.0136120172365186 circles per second
+mock.js:34 17600
+mock.js:35 1.9909213984231904 circles per second
+mock.js:34 17650
+mock.js:35 2.0849839456236188 circles per second
+mock.js:34 17700
+mock.js:35 2.251745102454402 circles per second
+mock.js:34 17750
+mock.js:35 2.288538996704504 circles per second
+mock.js:34 17800
+mock.js:35 2.231345947875759 circles per second
+mock.js:34 17850
+mock.js:35 1.8948006669698347 circles per second
+mock.js:34 17900
+mock.js:35 2.1177467174925875 circles per second
+mock.js:34 17950
+mock.js:35 2.2290580000891627 circles per second
+mock.js:34 18000
+mock.js:35 2.4075500770416025 circles per second
+mock.js:34 18050
+mock.js:35 1.9287891061991282 circles per second
+mock.js:34 18100
+mock.js:35 2.1172983273343213 circles per second
+mock.js:34 18150
+mock.js:35 2.023144776240188 circles per second
+mock.js:34 18200
+mock.js:35 2.1883753501400562 circles per second
+mock.js:34 18250
+mock.js:35 2.0606660072535443 circles per second
+mock.js:34 18300
+mock.js:35 2.205849913971853 circles per second
+mock.js:34 18350
+mock.js:35 1.9759721783117294 circles per second
+mock.js:34 18400
+mock.js:35 2.0279862096937737 circles per second
+mock.js:34 18450
+mock.js:35 2.089340186369145 circles per second
+mock.js:34 18500
+mock.js:35 2.057867226406552 circles per second
+mock.js:34 18550
+mock.js:35 2.089340186369145 circles per second
+mock.js:34 18600
+mock.js:35 2.002803925495694 circles per second
+mock.js:34 18650
+mock.js:35 1.920860545524395 circles per second
+mock.js:34 18700
+mock.js:35 1.8931505811972285 circles per second
+mock.js:34 18750
+mock.js:35 2.225387217375823 circles per second
+mock.js:34 18800
+mock.js:35 2.34763827589445 circles per second
+mock.js:34 18850
+mock.js:35 1.8935807612194662 circles per second
+mock.js:34 18900
+mock.js:35 1.9470404984423677 circles per second
+mock.js:34 18950
+mock.js:35 2.289272469209285 circles per second
+mock.js:34 19000
+mock.js:35 1.8845168098899443 circles per second
+mock.js:34 19050
+mock.js:35 2.0467477178762947 circles per second
+mock.js:34 19100
+mock.js:35 1.9494697442295696 circles per second
+mock.js:34 19150
+mock.js:35 1.9736322728349256 circles per second
+mock.js:34 19200
+mock.js:35 1.9842057224493037 circles per second
+mock.js:34 19250
+mock.js:35 2.0497683761734926 circles per second
+mock.js:34 19300
+mock.js:35 1.81705854562634 circles per second
+mock.js:34 19350
+mock.js:35 2.0998698080718996 circles per second
+mock.js:34 19400
+mock.js:35 2.0536411056803714 circles per second
+mock.js:34 19450
+mock.js:35 2.0634724113738603 circles per second
+mock.js:34 19500
+mock.js:35 1.874976562792965 circles per second
+mock.js:34 19550
+mock.js:35 1.8795579279753403 circles per second
+mock.js:34 19600
+mock.js:35 2.006179031416764 circles per second
+mock.js:34 19650
+mock.js:35 1.9775352001265623 circles per second
+mock.js:34 19700
+mock.js:35 1.7616178698516718 circles per second
+mock.js:34 19750
+mock.js:35 1.8444059168541813 circles per second
+mock.js:34 19800
+mock.js:35 1.840264998159735 circles per second
+mock.js:34 19850
+mock.js:35 1.964868157346642 circles per second
+mock.js:34 19900
+mock.js:35 1.8501387604070305 circles per second
+mock.js:34 19950
+mock.js:35 1.7972035512742173 circles per second
+mock.js:34 20000
+mock.js:35 1.8884314688219965 circles per second
+mock.js:34 20050
+mock.js:35 1.9051973784484073 circles per second
+mock.js:34 20100
+mock.js:35 1.7869907076483202 circles per second
+mock.js:34 20150
+mock.js:35 1.8414849734826164 circles per second
+mock.js:34 20200
+mock.js:35 1.9913178541558805 circles per second
+mock.js:34 20250
+mock.js:35 1.9317698875709925 circles per second
+mock.js:34 20300
+mock.js:35 1.8797699161622619 circles per second
+mock.js:34 20350
+mock.js:35 1.756789993324198 circles per second
+mock.js:34 20400
+mock.js:35 1.867901972504483 circles per second
+mock.js:34 20450
+mock.js:35 2.024865346454461 circles per second
+mock.js:34 20500
+mock.js:35 1.9411444987964903 circles per second
+mock.js:34 20550
+mock.js:35 2.094065418603677 circles per second
+mock.js:34 20600
+mock.js:35 1.6299918500407498 circles per second
+mock.js:34 20650
+mock.js:35 1.8634466308884914 circles per second
+mock.js:34 20700
+mock.js:35 2.0522081759973734 circles per second
+mock.js:34 20750
+mock.js:35 1.7775881683731511 circles per second
+mock.js:34 20800
+mock.js:35 1.8093652746616486 circles per second
+mock.js:34 20850
+mock.js:35 1.8588742657446649 circles per second
+mock.js:34 20900
+mock.js:35 2.0480052428934217 circles per second
+mock.js:34 20950
+mock.js:35 1.8825301204819278 circles per second
+mock.js:34 21000
+mock.js:35 1.7017800619447943 circles per second
+mock.js:34 21050
+mock.js:35 1.757469244288225 circles per second
+mock.js:34 21100
+mock.js:35 1.7010274205620193 circles per second
+mock.js:34 21150
+mock.js:35 1.9132897103279378 circles per second
+mock.js:34 21200
+mock.js:35 1.8715376553376255 circles per second
+mock.js:34 21250
+mock.js:35 1.776640727712042 circles per second
+mock.js:34 21300
+mock.js:35 1.9802764465919445 circles per second
+mock.js:34 21350
+mock.js:35 1.7935289475572136 circles per second
+mock.js:34 21400
+mock.js:35 1.6988889266419762 circles per second
+mock.js:34 21450
+mock.js:35 1.7152658662092624 circles per second
+mock.js:34 21500
+mock.js:35 1.9672647151400693 circles per second
+mock.js:34 21550
+mock.js:35 1.8927922471229557 circles per second
+mock.js:34 21600
+mock.js:35 1.6413892718797192 circles per second
+mock.js:34 21650
+mock.js:35 1.721644514840576 circles per second
+mock.js:34 21700
+mock.js:35 1.9987208186760475 circles per second
+mock.js:34 21750
+mock.js:35 1.9036740909956216 circles per second
+mock.js:34 21800
+mock.js:35 1.6947429075009321 circles per second
+mock.js:34 21850
+mock.js:35 1.685601591207902 circles per second
+mock.js:34 21900
+mock.js:35 1.747885059078515 circles per second
+mock.js:34 21950
+mock.js:35 1.5891177218408339 circles per second
+mock.js:34 22000
+mock.js:35 1.6799381782750396 circles per second
+mock.js:34 22050
+mock.js:35 1.5822784810126582 circles per second
+mock.js:34 22100
+mock.js:35 1.4884053225374334 circles per second
+mock.js:34 22150
+mock.js:35 1.714324898854831 circles per second
+mock.js:34 22200
+mock.js:35 1.638592121649079 circles per second
+mock.js:34 22250
+mock.js:35 1.7304031839418583 circles per second
+mock.js:34 22300
+mock.js:35 1.734304543877905 circles per second
+mock.js:34 22350
+mock.js:35 1.6261749113734674 circles per second
+mock.js:34 22400
+mock.js:35 1.6252234682268811 circles per second
+mock.js:34 22450
+mock.js:35 1.7298643786327152 circles per second
+mock.js:34 22500
+mock.js:35 1.67470525187567 circles per second
+mock.js:34 22550
+mock.js:35 1.591495050450393 circles per second
+mock.js:34 22600
+mock.js:35 1.588511882068878 circles per second
+mock.js:34 22650
+mock.js:35 1.591495050450393 circles per second
+mock.js:34 22700
+mock.js:35 1.6063224853021492 circles per second
+mock.js:34 22750
+mock.js:35 1.699524133242692 circles per second
+mock.js:34 22800
+mock.js:35 1.6559032952475576 circles per second
+mock.js:34 22850
+mock.js:35 1.4921364409561608 circles per second
+mock.js:34 22900
+mock.js:35 1.5758951084215835 circles per second
+mock.js:34 22950
+mock.js:35 1.5823285547010983 circles per second
+mock.js:34 23000
+mock.js:35 1.5922045664426967 circles per second
+mock.js:34 23050
+mock.js:35 1.4215045203843748 circles per second
+mock.js:34 23100
+mock.js:35 1.6899313887856153 circles per second
+mock.js:34 23150
+mock.js:35 1.6013835954264484 circles per second
+mock.js:34 23200
+mock.js:35 1.788013159776856 circles per second
+mock.js:34 23250
+mock.js:35 1.5815777819953185 circles per second
+mock.js:34 23300
+mock.js:35 1.6835016835016834 circles per second
+mock.js:34 23350
+mock.js:35 1.6295137530960762 circles per second
+mock.js:34 23400
+mock.js:35 1.7079419299743808 circles per second
+mock.js:34 23450
+mock.js:35 1.4830634157916593 circles per second
+mock.js:34 23500
+mock.js:35 1.6828217555196554 circles per second
+mock.js:34 23550
+mock.js:35 1.6216391528557066 circles per second
+mock.js:34 23600
+mock.js:35 1.6905027555194916 circles per second
+mock.js:34 23650
+mock.js:35 1.560208443848098 circles per second
+mock.js:34 23700
+mock.js:35 1.5354850597303686 circles per second
+mock.js:34 23750
+mock.js:35 1.8451546239574876 circles per second
+mock.js:34 23800
+mock.js:35 1.6458196181698486 circles per second
+mock.js:34 23850
+mock.js:35 1.7114495978093445 circles per second
+mock.js:34 23900
+mock.js:35 1.5578750584203147 circles per second
+mock.js:34 23950
+mock.js:35 1.597597213790459 circles per second
+mock.js:34 24000
+mock.js:35 1.6724086028698533 circles per second
+mock.js:34 24050
+mock.js:35 1.4874754566549653 circles per second
+mock.js:34 24100
+mock.js:35 1.674312694638851 circles per second
+mock.js:34 24150
+mock.js:35 1.7144424633109314 circles per second
+mock.js:34 24200
+mock.js:35 1.8040772145047808 circles per second
+mock.js:34 24250
+mock.js:35 1.583932587829062 circles per second
+mock.js:34 24300
+mock.js:35 1.6763897270837524 circles per second
+mock.js:34 24350
+mock.js:35 1.667778519012675 circles per second
+mock.js:34 24400
+mock.js:35 1.5369482355834256 circles per second
+mock.js:34 24450
+mock.js:35 1.7063099341364367 circles per second
+mock.js:34 24500
+mock.js:35 1.4877852828279823 circles per second
+mock.js:34 24550
+mock.js:35 1.4550957453000406 circles per second
+mock.js:34 24600
+mock.js:35 1.6100985380305273 circles per second
+mock.js:34 24650
+mock.js:35 1.4447944057560609 circles per second
+mock.js:34 24700
+mock.js:35 1.4986661870934868 circles per second
+mock.js:34 24750
+mock.js:35 1.560695445890689 circles per second
+mock.js:34 24800
+mock.js:35 1.475361463558572 circles per second
+mock.js:34 24850
+mock.js:35 1.5578265204386839 circles per second
+mock.js:34 24900
+mock.js:35 1.5214216163583252 circles per second
+mock.js:34 24950
+mock.js:35 1.5362871013334973 circles per second
+mock.js:34 25000
+mock.js:35 1.556178026766262 circles per second
+mock.js:34 25050
+mock.js:35 1.5916977047719096 circles per second
+mock.js:34 25100
+mock.js:35 1.524343770007012 circles per second
+mock.js:34 25150
+mock.js:35 1.4412129247975094 circles per second
+mock.js:34 25200
+mock.js:35 1.5045286311798514 circles per second
+mock.js:34 25250
+mock.js:35 1.4737524685353849 circles per second
+mock.js:34 25300
+mock.js:35 1.4403825656094258 circles per second
+mock.js:34 25350
+mock.js:35 1.52114390021296 circles per second
+mock.js:34 25400
+mock.js:35 1.5331779712989084 circles per second
+mock.js:34 25450
+mock.js:35 1.6660557795474993 circles per second
+mock.js:34 25500
+mock.js:35 1.4809110564819477 circles per second
+mock.js:34 25550
+mock.js:35 1.5385562188442365 circles per second
+mock.js:34 25600
+mock.js:35 1.3770690462419786 circles per second
+mock.js:34 25650
+mock.js:35 1.4979029358897544 circles per second
+mock.js:34 25700
+mock.js:35 1.436905480357502 circles per second
+mock.js:34 25750
+mock.js:35 1.4606643101282464 circles per second
+mock.js:34 25800
+mock.js:35 1.4593427120424962 circles per second
+mock.js:34 25850
+mock.js:35 1.50993537476596 circles per second
+mock.js:34 25900
+mock.js:35 1.3622493461203138 circles per second
+mock.js:34 25950
+mock.js:35 1.6596408537192553 circles per second
+mock.js:34 26000
+mock.js:35 1.3670539986329462 circles per second
+mock.js:34 26050
+mock.js:35 1.3370056421638101 circles per second
+mock.js:34 26100
+mock.js:35 1.4856633486851878 circles per second
+mock.js:34 26150
+mock.js:35 1.5614752818462885 circles per second
+mock.js:34 26200
+mock.js:35 1.630417060684123 circles per second
+mock.js:34 26250
+mock.js:35 1.3885417534505262 circles per second
+mock.js:34 26300
+mock.js:35 1.43143429716576 circles per second
+mock.js:34 26350
+mock.js:35 1.5346838551258442 circles per second
+mock.js:34 26400
+mock.js:35 1.6704530268608848 circles per second
+mock.js:34 26450
+mock.js:35 1.4463407578825573 circles per second
+mock.js:34 26500
+mock.js:35 1.3017104475280519 circles per second
+mock.js:34 26550
+mock.js:35 1.376386709609932 circles per second
+mock.js:34 26600
+mock.js:35 1.567594682718836 circles per second
+mock.js:34 26650
+mock.js:35 1.6089069086462657 circles per second
+mock.js:34 26700
+mock.js:35 1.415227851684121 circles per second
+mock.js:34 26750
+mock.js:35 1.3933786645858879 circles per second
+mock.js:34 26800
+mock.js:35 1.4825357291110715 circles per second
+mock.js:34 26850
+mock.js:35 1.4424602602198309 circles per second
+mock.js:34 26900
+mock.js:35 1.5152892687213988 circles per second
+mock.js:34 26950
+mock.js:35 1.4045732906343054 circles per second
+mock.js:34 27000
+mock.js:35 1.5070227259027067 circles per second
+mock.js:34 27050
+mock.js:35 1.4912019087384432 circles per second
+mock.js:34 27100
+mock.js:35 1.3946612367855848 circles per second
+mock.js:34 27150
+mock.js:35 1.4154281670205238 circles per second
+mock.js:34 27200
+mock.js:35 1.5120358050078626 circles per second
+mock.js:34 27250
+mock.js:35 1.3969602145730888 circles per second
+mock.js:34 27300
+mock.js:35 1.4004817657274102 circles per second
+mock.js:34 27350
+mock.js:35 1.4649438926489116 circles per second
+mock.js:34 27400
+mock.js:35 1.3733622654983932 circles per second
+mock.js:34 27450
+mock.js:35 1.462843768285547 circles per second
+mock.js:34 27500
+mock.js:35 1.3339736406808602 circles per second
+mock.js:34 27550
+mock.js:35 1.4601098002569795 circles per second
+mock.js:34 27600
+mock.js:35 1.5282107708295127 circles per second
+mock.js:34 27650
+mock.js:35 1.4428348819761065 circles per second
+mock.js:34 27700
+mock.js:35 1.3380790537104932 circles per second
+mock.js:34 27750
+mock.js:35 1.2474738654225195 circles per second
+mock.js:34 27800
+mock.js:35 1.5569048731122528 circles per second
+mock.js:34 27850
+mock.js:35 1.4165509816698303 circles per second
+mock.js:34 27900
+mock.js:35 1.3844279543692546 circles per second
+mock.js:34 27950
+mock.js:35 1.4242173925427977 circles per second
+mock.js:34 28000
+mock.js:35 1.3756671985913167 circles per second
+mock.js:34 28050
+mock.js:35 1.3091746962714705 circles per second
+mock.js:34 28100
+mock.js:35 1.4251510660129973 circles per second
+mock.js:34 28150
+mock.js:35 1.4145071856965032 circles per second
+mock.js:34 28200
+mock.js:35 1.4430847379358116 circles per second
+mock.js:34 28250
+mock.js:35 1.3199577613516367 circles per second
+mock.js:34 28300
+mock.js:35 1.3413456379439854 circles per second
+mock.js:34 28350
+mock.js:35 1.2537612838515546 circles per second
+mock.js:34 28400
+mock.js:35 1.5346838551258442 circles per second
+mock.js:34 28450
+mock.js:35 1.3188088518450136 circles per second
+mock.js:34 28500
+mock.js:35 1.3470916291726163 circles per second
+mock.js:34 28550
+mock.js:35 1.375818612074184 circles per second
+mock.js:34 28600
+mock.js:35 1.2239602457712173 circles per second
+mock.js:34 28650
+mock.js:35 1.3664188893747267 circles per second
+mock.js:34 28700
+mock.js:35 1.4858841010401187 circles per second
+mock.js:34 28750
+mock.js:35 1.2516584474428618 circles per second
+mock.js:34 28800
+mock.js:35 1.2643184059473538 circles per second
+mock.js:34 28850
+mock.js:35 1.400285658274288 circles per second
+mock.js:34 28900
+mock.js:35 1.3430029546065003 circles per second
+mock.js:34 28950
+mock.js:35 1.2937949593748383 circles per second
+mock.js:34 29000
+mock.js:35 1.3158241006342273 circles per second
+mock.js:34 29050
+mock.js:35 1.3449175565537832 circles per second
+mock.js:34 29100
+mock.js:35 1.3095518713496241 circles per second
+mock.js:34 29150
+mock.js:35 1.2609704428528195 circles per second
+mock.js:34 29200
+mock.js:35 1.3941945737947188 circles per second
+mock.js:34 29250
+mock.js:35 1.572871118940514 circles per second
+mock.js:34 29300
+mock.js:35 1.2408179471907883 circles per second
+mock.js:34 29350
+mock.js:35 1.3594344752582928 circles per second
+mock.js:34 29400
+mock.js:35 1.3105816361301146 circles per second
+mock.js:34 29450
+mock.js:35 1.3802622498274673 circles per second
+mock.js:34 29500
+mock.js:35 1.3246436708525406 circles per second
+mock.js:34 29550
+mock.js:35 1.3619153978154879 circles per second
+mock.js:34 29600
+mock.js:35 1.3451708366962605 circles per second
+mock.js:34 29650
+mock.js:35 1.2895904260806768 circles per second
+mock.js:34 29700
+mock.js:35 1.3560425254935995 circles per second
+mock.js:34 29750
+mock.js:35 1.2977237924680112 circles per second
+mock.js:34 29800
+mock.js:35 1.3185306294665227 circles per second
+mock.js:34 29850
+mock.js:35 1.1687977746090372 circles per second
+mock.js:34 29900
+mock.js:35 1.4251510660129973 circles per second
+mock.js:34 29950
+mock.js:35 1.459470504101112 circles per second
+mock.js:34 30000
+mock.js:35 1.390936656744652 circles per second
+mock.js:34 30050
+mock.js:35 1.3939224979091163 circles per second
+mock.js:34 30100
+mock.js:35 1.1926911883975002 circles per second
+mock.js:34 30150
+mock.js:35 1.1982074816075152 circles per second
+mock.js:34 30200
+mock.js:35 1.2781839562349815 circles per second
+mock.js:34 30250
+mock.js:35 1.326435866825839 circles per second
+mock.js:34 30300
+mock.js:35 1.2792958755500972 circles per second
+mock.js:34 30350
+mock.js:35 1.2556188945531253 circles per second
+mock.js:34 30400
+mock.js:35 1.263296192425276 circles per second
+mock.js:34 30450
+mock.js:35 1.1326054455669823 circles per second
+mock.js:34 30500
+mock.js:35 1.3400155441803125 circles per second
+mock.js:34 30550
+mock.js:35 1.1971173414418081 circles per second
+mock.js:34 30600
+mock.js:35 1.2348423106369317 circles per second
+mock.js:34 30650
+mock.js:35 1.2470071827613727 circles per second
+mock.js:34 30700
+mock.js:35 1.4033118158854898 circles per second
+mock.js:34 30750
+mock.js:35 1.1943150603129105 circles per second
+mock.js:34 30800
+mock.js:35 1.2045290291496025 circles per second
+mock.js:34 30850
+mock.js:35 1.2438429772625503 circles per second
+mock.js:34 30900
+mock.js:35 1.1443742561567336 circles per second
+mock.js:34 30950
+mock.js:35 1.2132977432661975 circles per second
+mock.js:34 31000
+mock.js:35 1.1712619175900114 circles per second
+mock.js:34 31050
+mock.js:35 1.2119449292224163 circles per second
