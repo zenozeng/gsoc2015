@@ -2,18 +2,119 @@
 
 ## SVG
 
-### 首先，是否需要一个 createSVG()?
+### Frist of all, why SVG?
 
-我觉得不需要，因为 Canvas 动画与 SVG 动画大不相同，
-不像 Canvas, SVG 如果不断地绘制的话，负担是非常重，会有极其大量的元素被创建。
-而不断的重绘画布遮盖旧的组分，却恰恰是 processing (以及 p5.js) 的语法特点。
-这种语法天然决定了这样子做 SVG 画布是会显得有些非常低效而且怪异的。
-以我个人之浅见，SVG操作的是元素的移动、filter之类，
-而canvas则是直接像画布一样画画。
+- Resolution Independence
 
-但是有个缺点就是，比如
+- Tool chains!
 
-### Performance
+    SVG works with Adobe Illustrator and Inkscape.
+    It would be wonderful if designers can easily exports their p5.js to svg,
+    and continue their work on SVG.
+    Also, it would be great if p5.js could import SVG,
+    because many resources files are in SVG.
+
+- Accessibility
+
+    Different from canvas, SVGs are accessible.
+    That is, the text can be selected and can be easily copy and could be used for TTS.
+
+- Object Based Events
+
+    Want to bind click on a custom shape? Use SVG!
+    SVG's API are born to be object based!
+
+### SVG Example
+
+#### In Canvas
+
+```javascript
+function setup() {
+    createCanvas(width, height);
+}
+```
+
+```javascript
+var myshape;
+function preload() {
+    myshape = loadImage('myshape.svg');
+}
+```
+
+```javascript
+var x = 0,
+    y = 0;
+function draw() {
+    background(0);
+    shapeMode(CORNERS);
+    shape(myshape, x, y, w, h); // draw svg on current canvas
+    x++;
+    y++;
+}
+```
+
+#### In SVG
+
+```javascript
+function setup() {
+    // TODO: crateSvg 还是 crateSVG?
+    createSVG(width, height); // enter SVG mode
+}
+```
+
+```javascript
+var myshape;
+function preload() {
+    myshape = loadImage('myshape.svg');
+}
+```
+
+```javascript
+var s,
+    x = 0,
+    y = 0;
+function draw() {
+    if (!s) {
+        // insert svg on current svg
+        // in SVG mode
+        shapeMode(CORNERS);
+        // p5.SVG.Shape is class for SVG Object
+        // note that when in canvas mode this will throw an exception
+        s = new Shape(myshape, x, y, w, h);
+        // s.shapeMode now is CORNERS
+    } else {
+        s.x = x;
+        s.y = y;
+        s.update(); // move s
+    }
+    x++;
+    y++;
+}
+```
+
+### Export SVG
+
+```javascript
+var svg;
+function setup() {
+    svg = createSVG(width, height);
+}
+```
+
+```javascript
+function draw() {
+    if (some condition) {
+        // draw something
+    } else {
+        noLoop();
+        var dataURL = svg.toDataURL();
+    }
+}
+```
+
+### FAQ
+
+#### Performance Issue
 
 I have tested the performance of svg using a demo drawing many circles (a very edge case).
 http://zenozeng.github.io/gsoc2015/p5.js/svg-test/
@@ -29,60 +130,18 @@ See also: http://zenozeng.github.io/gsoc2015/p5.js/svg-test/svg.log
 The performance is not good, but not so bad.
 However, performance can be improved via following ways:
 
-- remove all nodes when `background()` called
+- GC invisible elements
+    For instance, remove all nodes when `background()` called.
 
 - provide an API in SVG's manner
 
-#### SVG 有什么优势呢？
+    That is, move an existing object rather than draw another new object.
+    A OOP API for this, for example.
 
-- 有现成的工具链，可以导出到 Inkscape 或者 AI 来进行接下来的艺术创作
-
-- 矢量，可以用于网页的无损缩放 (Image scaling)
-
-- resolution independence and browser agnosticism
-
-    SVG offers a way to do full resolution graphical elements, no matter what size screen, what zoom level, or what resolution your user's device has
-
-- Accessibility
-
-    SVGs are accessible; text and drawing elements are machine-readable so screen readers can other devices can parse the images. 上面的文字将会是可以选择的。
-
-### Export SVG
-
-### PShape
-
-### loadShape
-
-Load SVG and draw it in current canvas.
-
-```javascript
-function preload() {
-    loadImage('hello.svg');
-}
-
-function setup() {
-    // do something here
-}
-
-function draw() {
-}
-```
-
-### Update
 
 ## PDF
 
 基于我现在的项目，然后增加矢量输出。
-
-## FAQ
-
-### Why SVG? We already had canvas.
-
-
-
-### Why add support for PDF/SVG together?
-
-他们非常统一、相似，一起做可以节省很多时间。
 
 ### Why me?
 
