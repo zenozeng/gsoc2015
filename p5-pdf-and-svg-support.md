@@ -13,18 +13,25 @@
 
 但是有个缺点就是，比如
 
-I have tested the performance of svg using a demo drawing many circles.
-[这里补充一个链接]
+### Performance
+
+I have tested the performance of svg using a demo drawing many circles (a very edge case).
+http://zenozeng.github.io/gsoc2015/p5.js/svg-test/
+
 Though the fps is always about 60,
 the circles drawn per second varies when circles increases.
 (Tested on my laptop, Intel(R) Core(TM) i5-2450M CPU @ 2.50GHz)
 At the very first (before drawing 550 circles), about 40+ circles per second.
 However, when 1000 circles already exists in svg, only 20+ circles per second.
 When it comes to 20000 circles, only about 1 circle per second.
-[这里补充log链接]
+See also: http://zenozeng.github.io/gsoc2015/p5.js/svg-test/svg.log
 
+The performance is not good, but not so bad.
+However, performance can be improved via following ways:
 
-利用 Canvas API 来模拟好了。
+- remove all nodes when `background()` called
+
+- provide an API in SVG's manner
 
 #### SVG 有什么优势呢？
 
@@ -52,8 +59,6 @@ Load SVG and draw it in current canvas.
 function preload() {
     loadImage('hello.svg');
 }
-
-var bot;
 
 function setup() {
     // do something here
