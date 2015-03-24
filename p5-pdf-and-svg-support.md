@@ -1,6 +1,10 @@
 # PDF/SVG support for p5.js
 
-## SVG
+Time-stamp: <2015-03-25 00:38:27 Zeno Zeng>
+
+Revision: 1 (Draft)
+
+## Part 1 - SVG Support for p5.js
 
 ### Frist of all, why SVG?
 
@@ -55,10 +59,13 @@ function draw() {
 
 #### In SVG
 
+After a long consideration,
+I think that maybe a custom API for SVG is better.
+
 ```javascript
+var svg;
 function setup() {
-    // TODO: crateSvg 还是 crateSVG?
-    createSVG(width, height); // enter SVG mode
+    svg = createSVG(width, height); // enter SVG mode
 }
 ```
 
@@ -76,9 +83,7 @@ var s,
 function draw() {
     if (!s) {
         // insert svg on current svg
-        // in SVG mode
         shapeMode(CORNERS);
-        // p5.SVG.Shape is class for SVG Object
         // note that when in canvas mode this will throw an exception
         s = new Shape(myshape, x, y, w, h);
         // s.shapeMode now is CORNERS
@@ -92,7 +97,7 @@ function draw() {
 }
 ```
 
-### Export SVG
+#### Export SVG
 
 ```javascript
 var svg;
@@ -111,6 +116,43 @@ function draw() {
     }
 }
 ```
+
+### SVG API Outline
+
+- shapeMode
+
+- shape(Shape, x, y, w, h)
+
+    Loading shape to canvas
+
+- new Shape()
+
+    For loading existing svg to svg
+
+- All basic shapes in p5.js
+
+```javascript
+function setup () {
+    ellipse = new Ellipse(x, y, w, h);
+}
+```
+
+```javascript
+function draw () {
+    ellipse.width++;
+    ellipse.update();
+}
+```
+
+- new SVGShape
+
+- Groups
+
+```javascript
+var group = new p5.SVG.Group
+```
+
+- toDataURL
 
 ### FAQ
 
@@ -139,18 +181,13 @@ However, performance can be improved via following ways:
     A OOP API for this, for example.
 
 
-## PDF
+## Part 2 - PDF support for p5.js
 
 基于我现在的项目，然后增加矢量输出。
 
-### Why me?
+## Why me?
 
 我是谁？凭什么是我。
-
-### Something Else
-
-I think the syntax of processing (and p5.js) is more canvas like,
-and is somehow im
 
 ## Links
 
@@ -160,28 +197,10 @@ and is somehow im
 
 - [Load and Display SVG in processing](https://www.processing.org/examples/loaddisplaysvg.html)
 
-```processing
-// The next line is needed if running in JavaScript Mode with Processing.js
-/* @pjs preload="bot1.svg"; */
-
-PShape bot;
-
-void setup() {
-  size(640, 360);
-  // The file "bot1.svg" must be in the data folder
-  // of the current sketch to load successfully
-  bot = loadShape("bot1.svg");
-}
-
-void draw(){
-  background(102);
-  shape(bot, 110, 90, 100, 100);  // Draw at coordinate (110, 90) at size 100 x 100
-  shape(bot, 280, 40);            // Draw at coordinate (280, 40) at the default size
-}
-```
-
 - https://www.mapbox.com/osmdev/2012/11/20/getting-serious-about-svg/
 
 - http://code.tutsplus.com/articles/why-arent-you-using-svg--net-25414
 
 - [Adding SVG support to processing-js](https://annasob.wordpress.com/2010/07/20/adding-svg-support-to-processing-js/)
+
+- http://snapsvg.io/start/
