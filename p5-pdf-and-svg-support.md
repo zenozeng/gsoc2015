@@ -1,6 +1,6 @@
 # PDF/SVG support for p5.js
 
-Time-stamp: <2015-03-25 00:38:27 Zeno Zeng>
+Time-stamp: \<2015-03-25 01:09:21 Zeno Zeng\>
 
 Revision: 1 (Draft)
 
@@ -28,7 +28,7 @@ Revision: 1 (Draft)
     Want to bind click on a custom shape? Use SVG!
     SVG's API are born to be object based!
 
-### SVG Example
+### Example Usage
 
 #### In Canvas
 
@@ -61,6 +61,8 @@ function draw() {
 
 After a long consideration,
 I think that maybe a custom API for SVG is better.
+It won't confuse our users and the `new Object` really means create object.
+An object is like a mover in `The Nature of Code`.
 
 ```javascript
 var svg;
@@ -119,15 +121,21 @@ function draw() {
 
 ### SVG API Outline
 
+#### Basic
+
 - shapeMode
 
 - shape(Shape, x, y, w, h)
 
     Loading shape to canvas
 
-- new Shape()
+- new Shape(svg)
 
     For loading existing svg to svg
+
+- new Shape(img)
+
+    For loading existing jpg/png to svg
 
 - All basic shapes in p5.js
 
@@ -144,17 +152,44 @@ function draw () {
 }
 ```
 
-- new SVGShape
+- shape.filter
 
-- Groups
+    Set filter for this object. Should allow SVG filters and provide some simply filters.
 
-```javascript
-var group = new p5.SVG.Group
-```
+    See also: https://developer.mozilla.org/en-US/docs/Web/CSS/filter
+
+- Shape.prototype.update
+
+#### Manipulate SVG
+
+Like p5.dom's API, but more for SVG.
+
+- SVG.createElement
+
+- SVG.createGroup
+
+    for svg's \<g\>
+
+- SVG.createRect and other basic shapes
+
+    See also: http://www.w3.org/TR/SVG/shapes.html
+
+- SVG.SVGElement.prototype.attr
+
+- SVG.SVGElement.prototype.style
+
+- Some other methods p5.Element provides
+
+#### Export
 
 - toDataURL
 
 ### FAQ
+
+#### Why not PShape?
+
+I think that PShape is somehow not that natural for SVG.
+SVG is something more DOM like.
 
 #### Performance Issue
 
@@ -180,12 +215,11 @@ However, performance can be improved via following ways:
     That is, move an existing object rather than draw another new object.
     A OOP API for this, for example.
 
-
 ## Part 2 - PDF support for p5.js
 
 基于我现在的项目，然后增加矢量输出。
 
-## Why me?
+## Part 3 - Why me?
 
 我是谁？凭什么是我。
 
@@ -204,3 +238,5 @@ However, performance can be improved via following ways:
 - [Adding SVG support to processing-js](https://annasob.wordpress.com/2010/07/20/adding-svg-support-to-processing-js/)
 
 - http://snapsvg.io/start/
+
+- [Processing - PShape](https://www.processing.org/reference/PShape.html)
