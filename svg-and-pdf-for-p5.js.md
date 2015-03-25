@@ -1,6 +1,6 @@
 # PDF/SVG support for p5.js
 
-Time-stamp: \<2015-03-25 13:11:59 Zeno Zeng\>
+Time-stamp: \<2015-03-25 13:14:48 Zeno Zeng\>
 
 Revision: 1 (Draft)
 
@@ -241,7 +241,7 @@ However, performance can be improved via following ways:
 
 ## Part 2 - PDF support for p5.js
 
-This will based on my [p5.js-pdf](https://github.com/zenozeng/p5.js-pdf).
+This will based on my current [p5.js-pdf](https://github.com/zenozeng/p5.js-pdf).
 
 As for PDF, I think allow exporting to PDF is enough.
 
