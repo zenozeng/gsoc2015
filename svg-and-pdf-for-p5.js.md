@@ -13,19 +13,19 @@ Revision: 1 (Draft)
 - Tool chains!
 
     SVG works with Adobe Illustrator and Inkscape.
-    It would be wonderful if designers can easily exports their p5.js to svg,
-    and continue their work on SVG.
-    Also, it would be great if p5.js could import SVG,
-    because many resources files are in SVG.
+    It would be wonderful if designers can easily export their p5.js to SVG,
+    and continue their work using SVG.
+    Also, it would be great if p5.js can import SVG,
+    because many resources are in SVG.
 
 - Accessibility
 
     Different from canvas, SVGs are accessible.
-    That is, the text can be selected and can be easily copy and could be used for TTS.
+    That is, the text can be selected, easily copied and used for TTS.
 
 - Object Based Events
 
-    Want to bind click on a custom shape? Use SVG!
+    Want to bind click events on a custom shape? Use SVG!
     SVG's API are born to be object based!
 
 - Filters!
@@ -64,9 +64,9 @@ function draw() {
 
 #### In SVG
 
-After a long consideration,
+After long time of consideration,
 I think that maybe a custom API for SVG is better.
-It won't confuse our users and the `new Object` really means create object.
+It won't confuse our users and the expression `new Object` really means creating an object.
 An object is like a mover in `The Nature of Code`.
 
 ```javascript
@@ -98,7 +98,7 @@ function draw() {
         // Note that s.x is defined via Object.defineProperty with setter overridden
         // So, when s.x updated, the position of s will follow the change
         // See also: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/defineProperty
-        // If this API is aggressive, then maybe something like `s.set('x', x)` or `s.x = x; s.update()` ?
+        // If this API is too aggressive, then maybe something like `s.set('x', x)` or `s.x = x; s.update()` ?
         s.x = x;
         s.y = y;
     }
@@ -115,14 +115,16 @@ function draw() {
 
 - shape(Shape, x, y, w, h)
 
-    Loading shape to canvas
+    Draw a shape to canvas
 
 - new Shape(svg)
 
-    For loading existing svg to svg
+    // FIXME
+    For loading an existing svg to svg
 
 - new Shape(img)
 
+    // FIXME
     For loading existing jpg/png to svg
 
 - Basic shapes in p5.js
@@ -146,7 +148,7 @@ function draw () {
 
 - shape.filter
 
-    Set filter for this object. Should allow SVG filters and provide some simply filters.
+    Set a filter for this object. Should allow SVG filters and provide some simple filters.
 
     See also: https://developer.mozilla.org/en-US/docs/Web/CSS/filter
 
@@ -170,7 +172,7 @@ Like p5.dom's API, but more for SVG.
 
 - SVG.createGroup
 
-    for svg's \<g\>
+    For svg's \<g\>
 
 - SVG.createRect and other basic shapes
 
@@ -209,8 +211,8 @@ function draw() {
 #### Why not PShape?
 
 I think that PShape is somehow not that natural for SVG.
-SVG is something more DOM like.
-So, the manipulation of svg is dom like api.
+SVG is something more DOM-like.
+So, the manipulation of SVG should have a DOM-like api.
 
 Also, I think in SVG's world, we should treat shapes as object.
 Thus, an OOP api was designed.
@@ -221,15 +223,15 @@ I have tested the performance of svg using a demo drawing many circles (a very e
 http://zenozeng.github.io/gsoc2015/p5.js/svg-test/
 
 Though the fps is always about 60,
-the circles drawn per second varies when circles increases.
+the circles drawn per second varies when circle count increases.
 (Tested on my laptop, Intel(R) Core(TM) i5-2450M CPU @ 2.50GHz)
-At the very first (before drawing 550 circles), about 40+ circles per second.
-However, when 1000 circles already exists in svg, only 20+ circles per second.
-When it comes to 20000 circles, only about 1 circle per second.
+At the very beginning (before drawing 550 circles), about 40+ circles can be drawn per second.
+However, when there are already 1000 circles in svg, only 20+ circles can be drawn per second.
+When it comes to 20000 circles, only about 1 circle can be drawn per second.
 See also: http://zenozeng.github.io/gsoc2015/p5.js/svg-test/svg.log
 
 The performance is not good, but not so bad.
-However, performance can be improved via following ways:
+However, performance can be improved in the following ways:
 
 - GC invisible elements
     For instance, remove all nodes when `background()` called.
@@ -241,9 +243,9 @@ However, performance can be improved via following ways:
 
 ## Part 2 - PDF support for p5.js
 
-This will based on my current [p5.js-pdf](https://github.com/zenozeng/p5.js-pdf).
+This will be based on my current [p5.js-pdf](https://github.com/zenozeng/p5.js-pdf).
 
-As for PDF, I think allow exporting to PDF is enough.
+As for PDF, I think allowing exporting to PDF is enough.
 
 And the future plan is:
 
@@ -253,7 +255,7 @@ And the future plan is:
 
 - Allow using ratio of canvas as PDF ratio
 
-- Allow frames overlay each other
+- Allow frames to overlay each other
 
 - Vector Support (for Canvas)
 
@@ -269,7 +271,7 @@ I am a junior student of Biosystems Engineering, Zhejiang University.
 And I have 3 years of web development experience (both frontend and backend).
 
 Also, I have some experience with SVG, D3 and processing.
-I am very active on [github](https://github.com/zenozeng) and would like to contribute to p5.js and extends its possibility for today's web. I really love the goal of p5.js, that is, to make coding accessible for artists, designers, educators, and beginners, and reinterprets this for today’s web.
+I am very active on [github](https://github.com/zenozeng) and would like to contribute to p5.js and extend its possibility for today's web. I really love the goal of p5.js, that is, to make coding accessible for artists, designers, educators, and beginners.
 
 ## Part 4 - Links
 
