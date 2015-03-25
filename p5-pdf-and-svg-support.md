@@ -1,6 +1,6 @@
 # PDF/SVG support for p5.js
 
-Time-stamp: \<2015-03-25 12:25:36 Zeno Zeng\>
+Time-stamp: \<2015-03-25 12:35:05 Zeno Zeng\>
 
 Revision: 1 (Draft)
 
@@ -30,7 +30,7 @@ Revision: 1 (Draft)
 
 - Filters!
 
-    Now that the world in SVG is object based,
+    Now that SVGs are object based,
     we can apply filters on object. (use blur, for example)
 
 ### Example Usage
@@ -98,7 +98,7 @@ function draw() {
         // Note that s.x is defined via Object.defineProperty with setter overridden
         // So, when s.x updated, the position of s will follow the change
         // See also: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/defineProperty
-        // If this API is aggressive, then maybe something like `s.set('x', x)` or `s.update()` ?
+        // If this API is aggressive, then maybe something like `s.set('x', x)` or `s.x = x; s.update()` ?
         s.x = x;
         s.y = y;
     }
@@ -232,12 +232,14 @@ However, performance can be improved via following ways:
 - GC invisible elements
     For instance, remove all nodes when `background()` called.
 
-- provide an API in SVG's manner
+- provide an API in SVG's manner (already talked above)
 
     That is, move an existing object rather than draw another new object.
     A OOP API for this, for example.
 
 ## Part 2 - PDF support for p5.js
+
+This will based on my [p5.js-pdf](https://github.com/zenozeng/p5.js-pdf)
 
 基于我现在的项目，然后增加矢量输出。
 
