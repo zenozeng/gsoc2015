@@ -1,6 +1,6 @@
 # PDF/SVG support for p5.js
 
-Time-stamp: \<2015-03-25 13:14:48 Zeno Zeng\>
+Time-stamp: \<2015-03-25 22:51:31 Zeno Zeng\>
 
 Revision: 1 (Draft)
 
@@ -113,19 +113,17 @@ function draw() {
 
 - shapeMode
 
-- shape(Shape, x, y, w, h)
+- shape(svg, x, y, w, h)
 
-    Draw a shape to canvas
+    Draw a SVG to current canvas.
 
-- new Shape(svg)
+- new Shape(svg, x, y, w, h)
 
-    // FIXME
-    For loading an existing svg to svg
+    Draw a SVG to current SVG.
 
-- new Shape(img)
+- new Shape(img, x, y, w, h)
 
-    // FIXME
-    For loading existing jpg/png to svg
+    Draw a given image to current SVG.
 
 - Basic shapes in p5.js
 
