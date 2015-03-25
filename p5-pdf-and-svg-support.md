@@ -1,6 +1,6 @@
 # PDF/SVG support for p5.js
 
-Time-stamp: \<2015-03-25 01:09:21 Zeno Zeng\>
+Time-stamp: \<2015-03-25 11:48:54 Zeno Zeng\>
 
 Revision: 1 (Draft)
 
@@ -27,6 +27,11 @@ Revision: 1 (Draft)
 
     Want to bind click on a custom shape? Use SVG!
     SVG's API are born to be object based!
+
+- Filters!
+
+    Now that the world in SVG is object based,
+    we can apply filters on object. (use blur, for example)
 
 ### Example Usage
 
@@ -99,27 +104,7 @@ function draw() {
 }
 ```
 
-#### Export SVG
-
-```javascript
-var svg;
-function setup() {
-    svg = createSVG(width, height);
-}
-```
-
-```javascript
-function draw() {
-    if (some condition) {
-        // draw something
-    } else {
-        noLoop();
-        var dataURL = svg.toDataURL();
-    }
-}
-```
-
-### SVG API Outline
+### API Outline
 
 #### Basic
 
@@ -137,7 +122,7 @@ function draw() {
 
     For loading existing jpg/png to svg
 
-- All basic shapes in p5.js
+- Basic shapes in p5.js
 
 ```javascript
 function setup () {
@@ -157,6 +142,18 @@ function draw () {
     Set filter for this object. Should allow SVG filters and provide some simply filters.
 
     See also: https://developer.mozilla.org/en-US/docs/Web/CSS/filter
+
+    ```javascript
+    var r = 0,
+        ellipse;
+    function setup () {
+        ellipse = new Ellipse(x, y, w, h);
+    }
+    function draw () {
+        var myfilter = new SVG.Filter.Blur('5px');
+        ellipse.filter = myfilter;
+    }
+    ```
 
 - Shape.prototype.update
 
@@ -183,6 +180,24 @@ Like p5.dom's API, but more for SVG.
 #### Export
 
 - toDataURL
+
+```javascript
+var svg;
+function setup() {
+    svg = createSVG(width, height);
+}
+```
+
+```javascript
+function draw() {
+    if (some condition) {
+        // draw something
+    } else {
+        noLoop();
+        var dataURL = svg.toDataURL();
+    }
+}
+```
 
 ### FAQ
 
