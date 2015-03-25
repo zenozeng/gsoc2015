@@ -1,6 +1,6 @@
 # PDF/SVG support for p5.js
 
-Time-stamp: \<2015-03-25 11:48:54 Zeno Zeng\>
+Time-stamp: \<2015-03-25 12:25:36 Zeno Zeng\>
 
 Revision: 1 (Draft)
 
@@ -95,9 +95,12 @@ function draw() {
         s = new Shape(myshape, x, y, w, h);
         // s.shapeMode now is CORNERS
     } else {
+        // Note that s.x is defined via Object.defineProperty with setter overridden
+        // So, when s.x updated, the position of s will follow the change
+        // See also: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/defineProperty
+        // If this API is aggressive, then maybe something like `s.set('x', x)` or `s.update()` ?
         s.x = x;
         s.y = y;
-        s.update(); // move s
     }
     x++;
     y++;
@@ -205,6 +208,10 @@ function draw() {
 
 I think that PShape is somehow not that natural for SVG.
 SVG is something more DOM like.
+So, the manipulation of svg is dom like api.
+
+Also, I think in SVG's world, we should treat shapes as object.
+Thus, an OOP api was provided.
 
 #### Performance Issue
 
