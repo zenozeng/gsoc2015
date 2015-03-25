@@ -1,6 +1,6 @@
 # PDF/SVG support for p5.js
 
-Time-stamp: \<2015-03-25 12:35:05 Zeno Zeng\>
+Time-stamp: \<2015-03-25 13:11:59 Zeno Zeng\>
 
 Revision: 1 (Draft)
 
@@ -109,7 +109,7 @@ function draw() {
 
 ### API Outline
 
-#### Basic
+#### OOP API
 
 - shapeMode
 
@@ -140,6 +140,10 @@ function draw () {
 }
 ```
 
+- shape.x
+
+- shape.y
+
 - shape.filter
 
     Set filter for this object. Should allow SVG filters and provide some simply filters.
@@ -158,9 +162,7 @@ function draw () {
     }
     ```
 
-- Shape.prototype.update
-
-#### Manipulate SVG
+#### Manipulate SVG (low-level API)
 
 Like p5.dom's API, but more for SVG.
 
@@ -211,7 +213,7 @@ SVG is something more DOM like.
 So, the manipulation of svg is dom like api.
 
 Also, I think in SVG's world, we should treat shapes as object.
-Thus, an OOP api was provided.
+Thus, an OOP api was designed.
 
 #### Performance Issue
 
@@ -239,15 +241,37 @@ However, performance can be improved via following ways:
 
 ## Part 2 - PDF support for p5.js
 
-This will based on my [p5.js-pdf](https://github.com/zenozeng/p5.js-pdf)
+This will based on my [p5.js-pdf](https://github.com/zenozeng/p5.js-pdf).
 
-基于我现在的项目，然后增加矢量输出。
+As for PDF, I think allow exporting to PDF is enough.
 
-## Part 3 - Why me?
+And the future plan is:
 
-我是谁？凭什么是我。
+- PDF.prototype.beginRecord
 
-## Links
+- PDF.prototype.endRecord
+
+- Allow using ratio of canvas as PDF ratio
+
+- Allow frames overlay each other
+
+- Vector Support (for Canvas)
+
+    Using canvas to SVG.
+
+- Vector Support (for SVG)
+
+    Maybe using svgToPdf.js and jsPDF.
+
+## Part 3 - About me
+
+I am a junior student of Biosystems Engineering, Zhejiang University.
+And I have 3 years of web development experience (both frontend and backend).
+
+Also, I have some experience with SVG, D3 and processing.
+I am very active on [github](https://github.com/zenozeng) and would like to contribute to p5.js and extends its possibility for today's web. I really love the goal of p5.js, that is, to make coding accessible for artists, designers, educators, and beginners, and reinterprets this for today’s web.
+
+## Part 4 - Links
 
 - [Project List](https://github.com/processing/processing/wiki/Project-List)
 
