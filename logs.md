@@ -255,10 +255,17 @@
 
 - svgcanvas: use XOR with thin line removed (using 8-connected neighborhood < 5) for diff
 
-
 ## 2015-06-08 -- 2015-06-21
 
-### Time
+### Time (30h21min)
+
+- canvas2svg: 1h11min
+
+- p5.js-pdf: 4h45min
+
+- p5.js-svg: 18h49min
+
+- svgcanvas: 5h36min
 
 ### Logs
 
@@ -336,3 +343,5 @@
 - Dig into 3D issue, no good luck.
 
 - Add compatible p5.js table
+
+- p5.PDF: try using browser's print to pdf
