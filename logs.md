@@ -345,3 +345,47 @@
 - Add compatible p5.js table
 
 - p5.PDF: try using browser's print to pdf
+
+## 2015-07-06 -- 2015-07-19
+
+### p5.svg
+
+- createGraphics(width, height, renderer='svg') and unit test for it
+
+- Improve styles of tests/
+
+### svgcanvas
+
+- check args for ctx.scale
+
+### p5.pdf
+
+- update FAQ & Browser Compatibility
+
+- Init new p5.PDF (based on window.print)
+
+- beginRecord(), endRecord() and __snapshot()
+
+- print() and save()
+
+## 2015-07-27 -- 2015-08-09
+
+### p5.svg
+
+- add p5.RendererSVG (extends p5.Renderer2D)
+
+- use p5.js@0.4.7
+
+- add p5.svg constants
+
+- add loadGraphics
+
+- patched p5.Graphics for p5.RendererSVG
+
+### svgcanvas
+
+- Use div to wrapper svg, fixes https://github.com/zenozeng/p5.js-svg/issues/84
+
+- check isNaN for width and height
+
+- fixes wrong position issue of drawImage
